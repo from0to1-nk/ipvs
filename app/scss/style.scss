@@ -812,7 +812,8 @@ input:checked+.main-form__label::before {
 .footer__input-wrapper {
     margin-bottom: 30px;
     display: flex;
-position: relative;
+    position: relative;
+
     input {
         color: #f3f3f3;
         border: 2px solid #EF7123;
@@ -886,27 +887,72 @@ position: relative;
     img {
         width: 80%;
     }
-    a{
-     color:   #1C1C1C;
-     transition: color, .3s;
-     font-weight: 700;
+
+    a {
+        color: #1C1C1C;
+        transition: color, .3s;
+        font-weight: 700;
     }
-    a:hover{
-        color:   #EF7123;
+
+    a:hover {
+        color: #EF7123;
     }
 }
 
-.footer__form-label span{
+.footer__form-label span {
     text-decoration: underline
 }
-.footer__subscribe-form{
-   max-width: 305px;
-   width: 100%;
-input{
-    height: 44px;
-}
+
+.footer__subscribe-form {
+    max-width: 305px;
+    width: 100%;
+
+    input {
+        height: 44px;
+    }
 }
 
+.footer__developer {
+    height: 51px;
+    background: #171D25;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+}
+
+a.footer__developer-link {
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    transition: color, .3s;
+    &:hover{
+        color:#EF7123
+    }
+}
+
+
+.footer__developer-link span svg+svg {
+    margin-left: 12px;
+}
+
+.footer__developer-link span+span {
+    margin-left: 12px;
+}
 
 
 
