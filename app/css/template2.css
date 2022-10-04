@@ -1,0 +1,78 @@
+
+
+/* Start:/local/templates/onlineshop/components/bitrix/news.list/main_banners/style.css?165693365774*/
+.main-slider .main-text-slider .slick-list.draggable {
+    z-index: 2;
+}
+/* End */
+
+
+/* Start:/local/templates/onlineshop/components/bitrix/news.list/clients_slider/style.css?16569336571672*/
+.component-slider-arrow {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: transparent;
+}
+.component-slider-arrow .slick-arrow {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    padding: 14px;
+}
+.component-slider-arrow .slick-arrow:last-child {
+    margin-left: 8px;
+}
+
+.slick-arrow .prev-arrow-svg,
+.slick-arrow .next-arrow-svg{
+    width: 13px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+}
+
+.slick-arrow.slick-disabled .prev-arrow-svg {
+    background-image: url(/local/templates/onlineshop/assets/img/left-arrow-bk.svg);
+}
+.slick-arrow.slick-disabled .next-arrow-svg {
+    background-image: url(/local/templates/onlineshop/assets/img/right-arrow-bk.svg);
+}
+.slick-arrow .prev-arrow-svg {
+    background-image: url(/local/templates/onlineshop/assets/img/left-arrow-bl.svg);
+}
+.slick-arrow .next-arrow-svg {
+    background-image: url(/local/templates/onlineshop/assets/img/right-arrow-bl.svg);
+}
+.component-slider .slick-list {
+    z-index: 10;
+}
+.component-slider::after {
+    content: '';
+    position: absolute;
+    background-image: url(/local/templates/onlineshop/assets/img/main-slider-decor.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+}
+
+.pattern__left::after {
+    bottom: 50%;
+    width: 300px;
+    height: 240px;
+    left: -17%;
+}
+.pattern__right::after {
+    bottom: -8%;
+    width: 300px;
+    height: 240px;
+    right: -21%;
+}
+/* End */
+/* /local/templates/onlineshop/components/bitrix/news.list/main_banners/style.css?165693365774 */
+/* /local/templates/onlineshop/components/bitrix/news.list/clients_slider/style.css?16569336571672 */
