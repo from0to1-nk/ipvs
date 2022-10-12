@@ -217,7 +217,13 @@
                     <input id="title-search-input" type="text" name="q" value="" size="40" maxlength="50"
                         autocomplete="off" class="search-form__input" placeholder="Поиск">
                     <div class="search-form__close">
-                        <i class="ic-close"></i>
+                        <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="7.77823" y1="7.77832" x2="20.5061" y2="20.5062" stroke="#1C1C1C" stroke-width="2"
+                                stroke-linecap="round" />
+                            <line x1="7.7782" y1="20.5062" x2="20.5061" y2="7.77827" stroke="#1C1C1C" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+
                     </div>
                 </form>
                 <div class="action-btns">
@@ -294,7 +300,7 @@
                 <div class="header__right">
                     <a class="phone mgo-number" href="tel:+74952255711">+7 (495) 225 57 11</a>
 
-                    <a class="header__btn btn btn--l btn--red" href="/request/">ЗАКАЗАТЬ ЗВОНОК</a>
+                    <a class="header__btn btn btn--l btn--red toform__btn--js" href="#main-form">ЗАКАЗАТЬ ЗВОНОК</a>
                 </div>
             </div>
         </div>
@@ -363,7 +369,7 @@
             </ul>
 
 
-            <a class="header__btn btn btn--l btn--red" href="/request/">ЗАКАЗАТЬ ЗВОНОК</a>
+            <a class="header__btn btn btn--l btn--red toform__btn--js" href="#main-form">ЗАКАЗАТЬ ЗВОНОК</a>
             <ul class="social-links">
                 <li>
                     <a target="_blank" href="https://vk.com/ipvs_ru" rel="noindex nofollow noopener noreferrer">
@@ -406,9 +412,9 @@
                 <ul class="main-banner__list">
                     <li>Работаем по 44 ФЗ и 223 ФЗ</li>
                     <li>Собственный склад оборудования в наличии</li>
-                    <li>Мы — надежный партнер с опытом более 17 лет</li>
+                    <li>Мы — надежный партнер <br> с опытом более 17 лет</li>
                 </ul>
-                <a href="#" class="main-banner__link orange-btn">ЗАКАЗАТЬ ЗВОНОК</a>
+                <a href="#main-form" class="main-banner__link orange-btn toform__btn--js">ЗАКАЗАТЬ ЗВОНОК</a>
             </div>
 
 
@@ -425,10 +431,8 @@
                     <p class="about__item-text content-text">Мы — надежный поставщик, высоко ценим своих партнеров и
                         предлагает индивидуальные условия сотрудничества.</p>
                 </div>
-                <div class="about__item" style="background-image: url(images/ab-i-1.png); background-size: 250px;"> <a
-                        class="about__link" href="#">Оборудование</a></div>
-                <div class="about__item" style="background-image: url(images/ab-i-2.png); background-size: 320px;"><a
-                        class="about__link" href="#">Наши проекты</a></div>
+                <a class="about__item" style="background-image: url(images/ab-i-1.png); background-size: 250px;" href="/catalog/"> <span class="about__link">Оборудование</span></a>
+                <a class="about__item" style="background-image: url(images/ab-i-2.png); background-size: 320px;" href="/projects/"><span class="about__link">Наши проекты</span></a>
             </div>
         </div>
 
@@ -486,13 +490,12 @@
                         </p>
                         <p class="content-text">
                             В стоимость данного решения входят базовые компоненты, а также пусконаладочные работы.
-                            В зависимости от бюджета и поставленных задач, компонентная база может быть скорректирована.
-                        </p>
+                         </p>
                         <p class="content-text">
                             В зависимости от бюджета и поставленных задач, компонентная база может быть скорректирована.
                         </p>
                     </div>
-                    <a class="orange-btn set-box__btn" href="#main-form">Рассчитать стоимость →</a>
+                    <a class="orange-btn set-box__btn toform__btn--js" href="#main-form">Рассчитать стоимость →</a>
                 </div>
             </div>
         </div>
@@ -506,14 +509,15 @@
                     <div class="set-box__content-inner">
                         <div class="content-title set-box__title">РЕШЕНИЕ ДЛЯ КРУПНОГО БИЗНЕСА</div>
                         <div class="content-subtitle set-box__subtitle">от 1 000 000 ₽</div>
-                        <p class="content-text">Для объединения крупных филиалов системой видеоконференцсвязи мы используем инфраструктурное оборудование ведущих производителей.
+                        <p class="content-text">Для объединения крупных филиалов системой видеоконференцсвязи мы
+                            используем инфраструктурное оборудование ведущих производителей.
                         </p>
                         <p class="content-text">
                             При создании подобных решений главным требованием становится надежность и гибкость связи,
                             возможности по расширению и масштабированию, а также работа по различным каналам связи.
                         </p>
                     </div>
-                    <a class="orange-btn set-box__btn" href="#main-form">Рассчитать стоимость →</a>
+                    <a class="orange-btn set-box__btn toform__btn--js" href="#main-form">Рассчитать стоимость →</a>
                 </div>
             </div>
         </div>
@@ -527,16 +531,18 @@
                     <div class="set-box__content-inner">
                         <div class="content-title set-box__title">КОМПЛЕКСНАЯ ИНТЕГРАЦИЯ</div>
                         <div class="content-subtitle set-box__subtitle">Индивидуальный бюджет</div>
-                        <p class="content-text"> Применяется для организации конгрессов и других крупных мероприятий с большим количеством участников. 
+                        <p class="content-text"> Применяется для организации конгрессов и других крупных мероприятий с
+                            большим количеством участников.
                         </p>
                         <p class="content-text">
-                            При организации подобных помещений применяется большое количество разных устройств и систем. Комплектация подобных решений напрямую выходит из поставленной задачи. 
+                            При организации подобных помещений применяется большое количество разных устройств и систем.
+                            Комплектация подобных решений напрямую выходит из поставленной задачи.
                         </p>
                         <p class="content-text">
                             Стоимость интеграции и оборудования рассчитывается индивидуально.
                         </p>
                     </div>
-                    <a class="orange-btn set-box__btn" href="#main-form">Рассчитать стоимость →</a>
+                    <a class="orange-btn set-box__btn toform__btn--js" href="#main-form">Рассчитать стоимость →</a>
                 </div>
             </div>
         </div>
@@ -548,20 +554,23 @@
                 <p class="stages__text">Оснащение конференц-зала под ключ</p>
                 <ul class="stages__list">
                     <li class="stages__list-item"
-                        style="background-image: url(images/stages/loupe.png);background-position: bottom 0px right 50%;">
-                        Предпроектный осмотр, составление технического задания</li>
-                    <li class="stages__list-item" style="background-image: url(images/stages/files.png);">Визуализация,
-                        разработка проектной документации</li>
+                        style="background-image: url(images/stages/loupe.svg);background-position: bottom 0px right 50%;"><span>
+                        Предпроектный осмотр, составление технического задания</span></li>
+                    <li class="stages__list-item" style="background-image: url(images/stages/files.png);"><span>Визуализация,
+                        разработка проектной документации</span></li>
                     <li class="stages__list-item"
-                        style="background-image: url(images/stages/equipments.png);background-position: bottom 0px right 0px;">
-                        Заказ и поставка оборудования</li>
-                    <li class="stages__list-item" style="background-image: url('images/stages/work.png');">Монтаж и
-                        пусконаладочные работы</li>
+                        style="background-image: url(images/stages/equipments.png);background-position: bottom 0px right 0px;background-size: 110px;"><span>
+                        Заказ и поставка оборудования</span></li>
+                    <li class="stages__list-item stages__list-item--big_text"
+                        style="background-image: url('images/stages/work.png'); "><span>Монтаж <br> и
+                        пусконаладочные работы</span></li>
                     <li class="stages__list-item"
                         style="background-image: url(images/stages/studies.png); background-size: 129px; background-position: bottom 0px right 0px;">
-                        Обучение персонала</li>
-                    <li class="stages__list-item" style="background-image: url(images/stages/garanty.png); ">Гарантийное
-                        и сервисное обслуживание</li>
+                        <span>Обучение персонала</span></li>
+                    <li class="stages__list-item"
+                        style="background-image: url(images/stages/garanty.png); background-size: 99px; "><span>Гарантийное
+                        <br>
+                        и сервисное обслуживание</span></li>
                 </ul>
             </div>
         </div>
@@ -593,7 +602,7 @@
                                 type="file" id="input__file" onchange="costCalculationForm.handleFiles(this.files)">
                             <label for="input__file" class="input__file-button">
                                 <span class="input__file-icon-wrapper"><img class="input__file-icon"
-                                        src="images/wh_attachment-clip 1.png" alt="Выбрать файл" width="25"></span>
+                                        src="images/wh_attachment-clip 1.svg" alt="Выбрать файл" width="25"></span>
                                 <span class="input__file-button-text">прикрепить файл</span>
                             </label>
                         </div>
@@ -605,7 +614,7 @@
                                 <p> Даю
                                     свое согласие на
                                     обработку персональных данных.</p>
-                                <p>Ознакомлен(а) с <a href="#" target="_blank"> политикой в отношении обработки
+                                <p>Ознакомлен(а) с <a href="https://ipvs.ru/upload/example/pc.pdf" target="_blank"> политикой в отношении обработки
                                         персональных данных </a> и принимаю её.</p>
                             </label>
                         </div>
@@ -643,7 +652,7 @@
                         <li class="footer__list-item"><a href="/catalog/audio-konferentsii/">Конференц-системы,
                                 голосование и синхроперевод</a>
                         </li>
-                        <li class="footer__list-item"><a href="/catalog/zvukovoe-oborudovanie/">Аудио коммутация и
+                        <li class="footer__list-item"><a href="/catalog/zvukovoe-oborudovanie/">Аудио коммутация <br> и
                                 звукоусиление</a>
                             <li />
                         <li class="footer__list-item"><a
@@ -718,7 +727,7 @@
             <div class="footer__row">
                 <div class="footer__row__inner">
                     <a class="footer__logo" href="https://ipvs.ru/">
-                        <img src="images/ipvs_footer.png" alt="logo">
+                        <img src="images/ipvs_footer.svg" alt="logo">
                     </a>
                     <div class="footer__row-item" itemscope itemtype="http://schema.org/Organization">
                         <a class="footer-tel" href="tel:+74951205189" itemprop="telephone">+7 (495) 120-5189</a>
@@ -803,12 +812,13 @@
                             <div class="custom-input">
                                 <input class="footer__form-input" type="checkbox" required>
                                 <label class="footer__thin-text footer__form-label castom-label ">
-                                    <a href="https://ipvs.ru/upload/example/pc.pdf" target="_blank">Даю свое согласие на
-                                        обработку персональных
-                                        данных. Ознакомлен(а) <span> с политикой в отношении обработки персональных
-                                            данных</span> и
-                                        принимаю
-                                        её.</a>
+                                    <p> Даю
+                                        свое согласие на
+                                        обработку персональных данных.</p>
+                                    <p>Ознакомлен(а) с <a href="https://ipvs.ru/upload/example/pc.pdf" target="_blank">
+                                            политикой в отношении обработки
+                                            персональных данных </a> <br> и принимаю её.</p>
+
                                 </label>
                             </div>
                         </form>

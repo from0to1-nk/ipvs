@@ -17,6 +17,8 @@
         background-color: #ffffff6b;
 
     }
+    .main-banner {
+       background-size: cover;}
 }
 
 @media (max-width:1200px) {
@@ -26,10 +28,10 @@
 
     .search-form {
         top: 117px;
-        border-radius: 0px 0px 4px 4px;
-        left: 0;
-        right: 0;
-        width: 100%;
+        // border-radius: 0px 0px 4px 4px;
+        // left: 0;
+        // right: 0;
+        // width: 100%;
 
     }
 
@@ -470,13 +472,23 @@
     .set__links::before {
         display: none;
     }
-
+    .stages__list-item{
+        padding: 25px 20px;
+    }
     .stages__list-item:first-child {
         position: relative;
+        background-position: bottom 0 right 0 !important;
     }
-
+    .stages__list-item:last-child {
+        background-position: bottom 9px right 16px;  
+    }
+    .stages__list-item:last-child span{
+        display: block;
+max-width: 130px;
+    }
     .stages__list-item:last-child:before {
-        display: none
+        display: none;
+      
     }
 
     .stages__list-item:nth-child(5):before,

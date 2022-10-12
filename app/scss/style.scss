@@ -49,6 +49,7 @@
     }
 
     &__btn {
+        text-transform: uppercase;
         padding: 0 19px;
         line-height: 40px;
         letter-spacing: 0.03em;
@@ -226,13 +227,13 @@
     }
 
     &__item {
+        border-radius: 8px;
         background-color: #f4f4f4;
         height: 274px;
         display: flex;
         padding: 17px 29px;
         transition: all .5s;
         background-repeat: no-repeat;
-        // background-size: 270px;
         background-position-y: top;
         background-position-x: right;
     }
@@ -259,7 +260,7 @@
         right: -18px;
         width: 43px;
         height: 43px;
-        background-image: url('../images/arrow-row.png');
+        background-image: url('../images/arrow-row.svg');
         background-repeat: no-repeat;
         background-size: contain;
         bottom: -3px;
@@ -279,7 +280,7 @@
         justify-content: center;
         flex-direction: column;
         background-color: #fff;
-       
+
         padding-right: 10px;
         padding-top: 15px;
         padding-bottom: 15px;
@@ -313,7 +314,7 @@
     }
 
     &__content {
-        max-width: 320px;
+        max-width: 318px;
         width: 100%;
         margin-right: 20px;
         padding-top: 68px;
@@ -455,13 +456,12 @@
     &__list-item {
         font-size: 14px;
         line-height: 18px;
-
         height: 204px;
         background: #d9d9d994;
         border-radius: 8px;
         padding: 12px 18px 12px 15px;
         background-repeat: no-repeat;
-        background-size: 108px;
+        background-size: 101px;
         background-position: bottom 9px right 50%;
 
     }
@@ -559,20 +559,6 @@
         display: block;
 
     }
-
-    &__label p {
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 16px;
-        color: #898989;
-    }
-
-    &__label a {
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 16px;
-        color: #898989;
-    }
 }
 
 .main-form__btn {
@@ -661,7 +647,7 @@ input:checked+.main-form__label::before {
     &__inner {
         padding: 90px 0 75px;
         display: flex;
-       grid-gap: 40px;
+        grid-gap: 40px;
     }
 
     &__box-title {
@@ -671,9 +657,7 @@ input:checked+.main-form__label::before {
     }
 
     &__box {
-      
         width: 260px;
-
     }
 
     &__box:first-child {
@@ -688,7 +672,6 @@ input:checked+.main-form__label::before {
     &__list--col {
         columns: 2;
         column-gap: 40px;
-
     }
 
     &__list-item {
@@ -716,8 +699,9 @@ input:checked+.main-form__label::before {
     }
 
     &__logo img {
-        width: 126px;
-        margin-top: -20px;
+        width: 87px;
+        margin-top: -4px;
+        margin-right: 36px;
     }
 
     &__row-item {
@@ -783,22 +767,27 @@ input:checked+.main-form__label::before {
         font-size: 14px;
     }
 
-    &__form-label a {
+
+
+    &__form-label::before {
+        border: 2px solid #fff;
+    }
+}
+
+.castom-label {
+    p {
         color: #898989;
         font-size: 12px;
         line-height: 16px;
     }
 
-
-    &__form-label::before {
-
-        border: 2px solid #fff;
-
+    a {
+        border-bottom: 1px solid #898989;
+        color: inherit;
+        line-height: 12px;
     }
 }
-// .footer__box+.footer__box{
-//     margin-left: 40px;
-// }
+
 .socials--dubl {
     display: none;
     visibility: hidden;
@@ -840,7 +829,7 @@ input:checked+.main-form__label::before {
 
     button {
         border-radius: 0px 4px 4px 0px;
-        padding: 0;
+        padding: 0 15px;
         border: 2px solid #EF7123;
         height: 44px;
         width: 160px;
@@ -853,8 +842,6 @@ input:checked+.main-form__label::before {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #F3F3F3;
-
-
     }
 }
 
@@ -943,8 +930,9 @@ a.footer__developer-link {
     line-height: 16px;
     color: #fff;
     transition: color, .3s;
-    &:hover{
-        color:#EF7123
+
+    &:hover {
+        color: #EF7123
     }
 }
 
@@ -956,6 +944,57 @@ a.footer__developer-link {
 .footer__developer-link span+span {
     margin-left: 12px;
 }
+
+.search-form__close {
+    margin-top: 10px;
+    margin-right: 10px;
+
+    svg line {
+        transition: stroke, .3s
+    }
+
+    svg:hover line {
+        stroke: #EF7123
+    }
+}
+
+.search-btn {
+    svg {
+        circle {
+            transition: stroke, .3s
+        }
+
+        line {
+            transition: stroke, .3s
+        }
+    }
+}
+
+.search-btn:hover {
+    svg {
+        circle {
+            stroke: #EF7123
+        }
+
+        line {
+            stroke: #EF7123
+        }
+    }
+}
+
+.stages__list-item--big_text {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.search-form {
+    top: 148px;
+    border-radius: 0px 0px 4px 4px;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+}
+
 
 
 
