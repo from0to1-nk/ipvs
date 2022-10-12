@@ -304,6 +304,7 @@
 
     &__btn {
         width: 100%;
+        background: transparent;
     }
 
     &__inner {
@@ -995,7 +996,11 @@ a.footer__developer-link {
 
 }
 
-
+// #title-search{
+//     max-width: 1160px;
+// padding: 0 15px;
+// margin: 0 auto;
+// }
 
 
 @import"media";
