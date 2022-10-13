@@ -996,11 +996,19 @@ a.footer__developer-link {
 
 }
 
-// #title-search{
-//     max-width: 1160px;
-// padding: 0 15px;
-// margin: 0 auto;
-// }
-
-
+.b24-widget-button-inner-block{
+    background: #EF7123!important;
+}
+.b24-widget-button-pulse.b24-widget-button-pulse-animate{
+    background: #EF7123!important;
+}
+.b24-widget-button-inner-mask{
+    background: #EF7123!important;
+}
+.b24-widget-button-popup.b24-widget-button-popup-show,.b24-widget-button-popup-triangle{
+    border-color: #EF7123!important
+}
+.b24-widget-button-pulse.b24-widget-button-pulse-animate{
+    border-color: #F06F0F !important
+}
 @import"media";
