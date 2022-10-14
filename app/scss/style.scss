@@ -141,7 +141,6 @@
 }
 
 .main-banner {
-    min-height: 760px;
     color: #1C1C1C;
     background-image: url('../images/small-room-w-speakerphone.png');
     background-size: 100% 100%;
@@ -154,8 +153,8 @@
     }
 
     &__inner {
-        min-height: 760px;
-        height: 100%;
+        height: 46vw;
+        min-height: 570px;
         max-width: 700px;
         display: flex;
         flex-direction: column;
@@ -287,13 +286,7 @@
     }
 }
 
-.set__btn--duble {
-    display: none;
-}
 
-.set__img--duble {
-    display: none;
-}
 
 .set {
     margin-bottom: 40px;
@@ -305,6 +298,7 @@
     &__btn {
         width: 100%;
         background: transparent;
+        display: block;
     }
 
     &__inner {
@@ -371,7 +365,16 @@
     }
 
 }
+.set__btn+.set__btn{
+    margin-top: 15px;
+}
+.set__btn--duble {
+    display: none;
+}
 
+.set__img--duble {
+    display: none;
+}
 .content-text__wrapper {
     margin-bottom: 18px;
 }
