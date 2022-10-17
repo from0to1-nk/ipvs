@@ -76,7 +76,7 @@
 }
 
 .phone {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -87,7 +87,7 @@
 }
 
 .menu {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     line-height: 20px;
     justify-content: space-between;
 
@@ -162,7 +162,7 @@
     }
 
     &__title {
-        font-family: 'Montserrat';
+        font-family: 'Montserrat',sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 42px;
@@ -505,7 +505,7 @@
     &__inputs {
         background: #FFFFFF;
         border-radius: 4px;
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -526,7 +526,7 @@
     }
 
     input::placeholder {
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -618,7 +618,7 @@ input:checked+.main-form__label::before {
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
-    padding: 14px;
+    padding: 13px;
 }
 
 .input__file-button {
@@ -684,7 +684,7 @@ input:checked+.main-form__label::before {
 
     &__list a {
         color: #f3f3f391;
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 300;
         font-size: 14px;
@@ -751,7 +751,7 @@ input:checked+.main-form__label::before {
         font-size: 14px;
         line-height: 18px;
         color: #f3f3f391;
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
     }
 
